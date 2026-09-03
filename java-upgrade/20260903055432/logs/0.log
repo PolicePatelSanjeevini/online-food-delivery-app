@@ -1,0 +1,29 @@
+2026-09-03T05:54:32.832Z [INFO] ----------------------invoke install_maven----------------------
+2026-09-03T05:54:32.834Z [INFO] [Tool.invoke]({name: install_maven, input: {
+  "version": "3.9.11",
+  "dest": "C:\\Users\\sanje\\.maven",
+  "projectPath": "c:\\Users\\sanje\\OneDrive\\Documents\\Online Food Delivery App"
+}}).
+2026-09-03T05:54:32.835Z [INFO] [Tool.invoke] do invoke.
+2026-09-03T05:54:34.089Z [ERROR] [Tool.invoke] error occurs when invoking tool install_maven: Error: Failed to fetch https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip: Not Found.
+2026-09-03T05:54:34.107Z [INFO] ----------------------invoked install_maven----------------------
+2026-09-03T05:54:37.561Z [INFO] ----------------------invoke install_maven----------------------
+2026-09-03T05:54:37.569Z [INFO] [Tool.invoke]({name: install_maven, input: {
+  "version": "latest",
+  "dest": "C:\\Users\\sanje\\.maven",
+  "projectPath": "c:\\Users\\sanje\\OneDrive\\Documents\\Online Food Delivery App"
+}}).
+2026-09-03T05:54:37.570Z [INFO] [Tool.invoke] do invoke.
+2026-09-03T05:54:44.791Z [INFO] [Tool.invoke]({result: {
+  "result": {
+    "name": "mvn",
+    "path": "C:\\Users\\sanje\\.maven\\maven-3.9.16\\bin",
+    "version": "3.9.16"
+  },
+  "message": "Maven latest is installed at C:\\Users\\sanje\\.maven\\maven-3.9.16\\bin",
+  "telemetry": {
+    "tool": "Maven",
+    "version": "latest"
+  }
+}}).
+2026-09-03T05:54:44.792Z [INFO] ----------------------invoked install_maven----------------------
